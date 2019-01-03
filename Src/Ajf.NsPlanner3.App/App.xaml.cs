@@ -1,18 +1,17 @@
-﻿using Ajf.NsPlanner3_App;
+﻿using Ajf.NsPlanner3.Shared;
+using Ajf.NsPlanner3_App;
 
 namespace Ajf.NsPlanner3.App
 {
-    /// <summary>
-    ///     Interaction logic for App.xaml
-    /// </summary>
     public partial class App
     {
         public App()
         {
-            var nsPlannerSettings = new NsPlannerSettings();
+            var container = new StructureMap.Container(x=>x.AddRegistry<SharedRegistry>());
+            
             var view = new MainWindow
             {
-                DataContext = new MainWindowViewModel(nsPlannerSettings)
+                DataContext = container.GetInstance<IMainWindowViewModel>()
             };
 
             view.ShowDialog();

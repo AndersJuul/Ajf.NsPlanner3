@@ -1,6 +1,6 @@
 ﻿using JCI.ITC.COMP2.Common.SettingsEnrichers;
 
-namespace Ajf.NsPlanner3.App
+namespace Ajf.NsPlanner3.Shared
 {
     public class NsPlannerSettings: INsPlannerSettings
     {

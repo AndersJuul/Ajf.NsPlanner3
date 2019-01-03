@@ -1,6 +1,6 @@
-﻿namespace Ajf.NsPlanner3.App
+﻿namespace Ajf.NsPlanner3.Shared
 {
-    public class MainWindowViewModel
+    public class MainWindowViewModel: IMainWindowViewModel
     {
         private readonly INsPlannerSettings _nsPlannerSettings;
 
