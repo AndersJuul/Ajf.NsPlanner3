@@ -9,7 +9,11 @@ namespace Ajf.NsPlanner3.App
     {
         public App()
         {
-            var view = new MainWindow();
+            var nsPlannerSettings = new NsPlannerSettings();
+            var view = new MainWindow
+            {
+                DataContext = new MainWindowViewModel(nsPlannerSettings)
+            };
 
             view.ShowDialog();
         }
