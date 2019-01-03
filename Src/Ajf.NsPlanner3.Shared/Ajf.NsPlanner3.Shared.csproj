@@ -49,10 +49,14 @@
   <ItemGroup>
     <Compile Include="IMainWindowViewModel.cs" />
     <Compile Include="INsPlannerSettings.cs" />
+    <Compile Include="IStepViewModel.cs" />
     <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="NsPlannerSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SharedRegistry.cs" />
+    <Compile Include="StepViewModel0.cs" />
+    <Compile Include="StepViewModel1.cs" />
+    <Compile Include="StepViewModel2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

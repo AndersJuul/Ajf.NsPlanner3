@@ -18,35 +18,4 @@ namespace Ajf.NsPlanner3.Shared
 
         public string Title => $"NS Planner 3.0 - {_nsPlannerSettings.ReleaseNumber}";
     }
-
-    public interface IStepViewModel
-    {
-        string Order { get; set; }
-    }
-
-    public class StepViewModel : IStepViewModel
-    {
-        public StepViewModel()
-        {
-            Order = "A";
-        }
-
-        public string Order { get; set; }
-    }
-    public class StepViewModel1 : IStepViewModel
-    {
-        public StepViewModel1()
-        {
-            Order = "B";
-        }
-        public string Order { get; set; }
-    }
-    public class StepViewModel3 : IStepViewModel
-    {
-        public StepViewModel3()
-        {
-            Order = "C";
-        }
-        public string Order { get; set; }
-    }
 }
