@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajf.NsPlanner3.App", "Ajf.N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajf.NsPlanner3.Setup", "Ajf.NsPlanner3.Setup\Ajf.NsPlanner3.Setup.csproj", "{F08FC0EC-BE8A-4CC6-A9D3-874E545940CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajf.NsPlanner3.Tests", "Ajf.NsPlanner3.Tests\Ajf.NsPlanner3.Tests.csproj", "{CF399D9E-C618-46E5-A890-26E6AA3A35B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F08FC0EC-BE8A-4CC6-A9D3-874E545940CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F08FC0EC-BE8A-4CC6-A9D3-874E545940CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F08FC0EC-BE8A-4CC6-A9D3-874E545940CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF399D9E-C618-46E5-A890-26E6AA3A35B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF399D9E-C618-46E5-A890-26E6AA3A35B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF399D9E-C618-46E5-A890-26E6AA3A35B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF399D9E-C618-46E5-A890-26E6AA3A35B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
