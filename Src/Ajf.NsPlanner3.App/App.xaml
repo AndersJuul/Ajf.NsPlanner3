@@ -1,7 +1,7 @@
 ﻿<Application x:Class="Ajf.NsPlanner3.App.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Ajf.NsPlanner3_App">
+             xmlns:local="clr-namespace:Ajf.NsPlanner3.App">
     <Application.Resources>
          
     </Application.Resources>

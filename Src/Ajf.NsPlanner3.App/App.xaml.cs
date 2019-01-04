@@ -1,6 +1,5 @@
 ﻿using System.Windows;
 using Ajf.NsPlanner3.Shared;
-using Ajf.NsPlanner3_App;
 
 namespace Ajf.NsPlanner3.App
 {
