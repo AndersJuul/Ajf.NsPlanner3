@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="{Binding Title}" Height="450" Width="800" Activated="Window_Activated">
     <Grid>
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top">
+            <MenuItem Header="Filer">
+                <MenuItem Header="Indstillinger" Command="{Binding EditOptionsCommand}"/>
+                <MenuItem Header="Afslut" Command="{Binding ExitCommand}"/>
+            </MenuItem>
+            <MenuItem Header="Rediger"></MenuItem>
+            <MenuItem Header="Hjælp"></MenuItem>
+        </Menu>
+
         <ItemsControl Name="icTodoList" ItemsSource="{Binding StepViewModels}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>

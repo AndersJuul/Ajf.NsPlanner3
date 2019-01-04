@@ -1,6 +1,8 @@
-﻿namespace Ajf.NsPlanner3.Shared
+﻿using System.ComponentModel;
+
+namespace Ajf.NsPlanner3.Shared
 {
-    public interface IMainWindowViewModel:IActivatable
+    public interface IMainWindowViewModel:IActivatable, INotifyPropertyChanged
     {
     }
 }

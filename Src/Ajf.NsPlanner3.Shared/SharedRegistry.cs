@@ -12,6 +12,9 @@ namespace Ajf.NsPlanner3.Shared
                 s.Assembly(Assembly.GetExecutingAssembly());
                 s.WithDefaultConventions();
                 s.AddAllTypesOf<IStepViewModel>();
+
+                For<IOptionsWindowViewModel>().Use<OptionsWindowViewModel>().Singleton();
+                For<IMainWindowViewModel>().Use<MainWindowViewModel>().Singleton();
             });
         }
     }

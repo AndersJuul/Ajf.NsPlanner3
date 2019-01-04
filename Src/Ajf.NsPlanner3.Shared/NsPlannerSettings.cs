@@ -7,7 +7,6 @@ namespace Ajf.NsPlanner3.Shared
         public NsPlannerSettings()
         {
             IdentitySettingsEnricher.Enrich(this);
-
         }
         public string ReleaseNumber { get; set; }
         public string ComponentName { get; set; }
