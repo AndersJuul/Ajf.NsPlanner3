@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace Ajf.NsPlanner3_App
+namespace Ajf.NsPlanner3.App
 {
     /// <summary>
     ///     Interaction logic for MainWindow.xaml

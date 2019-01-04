@@ -1,4 +1,5 @@
-﻿using Ajf.NsPlanner3.Shared;
+﻿using System.Windows;
+using Ajf.NsPlanner3.Shared;
 using Ajf.NsPlanner3_App;
 
 namespace Ajf.NsPlanner3.App
@@ -7,14 +8,17 @@ namespace Ajf.NsPlanner3.App
     {
         public App()
         {
+            // Disable shutdown when the dialog closes
+            Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
+
             var container = new StructureMap.Container(x=>x.AddRegistry<SharedRegistry>());
             
-            var view = new MainWindow
+            var mainWindow = new MainWindow
             {
                 DataContext = container.GetInstance<IMainWindowViewModel>()
             };
 
-            view.ShowDialog();
+            mainWindow.ShowDialog();
         }
     }
 }
