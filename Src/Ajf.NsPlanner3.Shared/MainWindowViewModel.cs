@@ -17,5 +17,10 @@ namespace Ajf.NsPlanner3.Shared
         public ObservableCollection<IStepViewModel> StepViewModels { get; private set; }
 
         public string Title => $"NS Planner 3.0 - {_nsPlannerSettings.ReleaseNumber}";
+
+        public void Activated()
+        {
+
+        }
     }
 }

@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IActivatable.cs" />
     <Compile Include="IMainWindowViewModel.cs" />
     <Compile Include="INsPlannerSettings.cs" />
     <Compile Include="IStepViewModel.cs" />
