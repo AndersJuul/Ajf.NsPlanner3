@@ -29,7 +29,7 @@ namespace Ajf.NsPlanner3.Shared
             if (_hasBeenActivated)
                 return;
 
-            EditOptionsCommand.Execute(null);
+            //EditOptionsCommand.Execute(null);
 
             // Folder not present where Registry points out
 

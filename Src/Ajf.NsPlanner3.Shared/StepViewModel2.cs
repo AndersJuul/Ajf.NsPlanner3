@@ -5,7 +5,7 @@
         public StepViewModel2()
         {
             Order = "C";
-            Completion = 3;
+            Completion = 50;
         }
         public string Order { get; set; }
         public double Completion { get; set; }

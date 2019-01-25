@@ -1,12 +1,11 @@
-﻿using System.Windows;
-using Ajf.NsPlanner3.Shared;
+﻿using Ajf.NsPlanner3.Shared;
 
 namespace Ajf.NsPlanner3.App
 {
     /// <summary>
     ///     Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow 
     {
         public MainWindow()
         {
