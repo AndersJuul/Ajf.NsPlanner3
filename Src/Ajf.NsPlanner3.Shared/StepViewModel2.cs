@@ -6,7 +6,10 @@
         {
             Order = "C";
             Completion = 50;
+            Text = "";
         }
+
+        public string Text { get; set; }
         public string Order { get; set; }
         public double Completion { get; set; }
     }

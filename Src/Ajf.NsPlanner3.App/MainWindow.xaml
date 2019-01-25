@@ -24,7 +24,7 @@
                                 <ColumnDefinition Width="88" />
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
-                            <TextBlock Grid.Column="0" Text="{Binding Order}" Background="BurlyWood" />
+                            <TextBlock Grid.Column="0" Text="{Binding Text}" Background="BurlyWood" />
                             <ProgressBar Grid.Column="1" HorizontalAlignment="Stretch" Minimum="0" Maximum="100" Value="{Binding Completion}" Background="Bisque" />
                         </Grid>
                     </DataTemplate>
